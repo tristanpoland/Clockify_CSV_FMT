@@ -124,17 +124,3 @@ The original file is left untouched.
 | [`regex`](https://crates.io/crates/regex) | Filename pattern matching |
 | [`anyhow`](https://crates.io/crates/anyhow) | Error handling |
 
----
-
-## Also included
-
-A PowerShell version (`hours.ps1`) is included for use on Windows without needing to install Rust. It supports the same core workflow but with fewer configuration options.
-
-```powershell
-# Current directory
-.\hours.ps1
-
-# Specific directory or file
-.\hours.ps1 -Path "C:\Reports"
-.\hours.ps1 -Path "Clockify_Time_Report_Detailed_01_28_2026-02_10_2026.csv"
-```
